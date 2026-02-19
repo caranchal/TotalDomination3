@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Отправляем fetch-запрос на backend
         try {
-            const response = await fetch('http://localhost:3000/api/submit', { // Или твой URL backend'а (в проде — https://your-backend.com/api/submit)
+            const response = await fetch('http://backendx-production-c33e.up.railway.app/api/submit', { // Или твой URL backend'а (в проде — https://your-backend.com/api/submit)
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
