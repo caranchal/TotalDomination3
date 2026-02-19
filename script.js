@@ -514,7 +514,7 @@ document.querySelectorAll('.legal-link').forEach(link => {
     });
 });
 
-fetch('http://backendx-production-c33e.up.railway.app/api/submit', {
+fetch('https://backendx-production-c33e.up.railway.app/api/submit', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({name: "...", phone: "...", comment: "..."})
